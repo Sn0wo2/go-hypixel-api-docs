@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.23" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="theme-color" content="#3eaf7c"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>go-hypixel-api docs project</title><meta name="description" content="hypixel api golang wrapper">
+    <link rel="preload" href="/assets/style-DwyeOAka.css" as="style"><link rel="stylesheet" href="/assets/style-DwyeOAka.css">
+    <link rel="modulepreload" href="/assets/app-CK7goRpz.js"><link rel="modulepreload" href="/assets/404.html-CFGSWw_6.js">
+    <link rel="prefetch" href="/assets/index.html-B2iAXP-g.js" as="script"><link rel="prefetch" href="/assets/get-started.html-CSrrRK2F.js" as="script"><link rel="prefetch" href="/assets/index.html-6xGJ5hLz.js" as="script"><link rel="prefetch" href="/assets/get-started.html-MeRPupxl.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-fb5096b8><main class="page" data-v-fb5096b8><div vp-content data-v-fb5096b8><h1 data-v-fb5096b8>404</h1><blockquote data-v-fb5096b8>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-fb5096b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CK7goRpz.js" defer></script>
+  </body>
+</html>
