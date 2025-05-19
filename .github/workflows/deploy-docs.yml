@@ -35,7 +35,7 @@ jobs:
           > docs/.vuepress/dist/.nojekyll
 
       - name: deploy docs
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           branch: gh-pages
           folder: docs/.vuepress/dist
