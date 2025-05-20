@@ -15,7 +15,7 @@ features:
   - title: 最小化
     details: go-hypixel-api 在设计之初就希望在功能齐全情况下尽可能减小包尺寸和依赖
   - title: 支持API速率限制
-    details: 通过一系列 Hypixel API 返回请求头自动计算剩余请求次数并自动进行堵塞, 无需手动设置
+    details: 通过一系列 Hypixel API 返回响应头自动计算剩余请求次数并自动进行堵塞, 无需手动设置
   - title: 自由度
     details: 我们希望给开发者提供更高的自由度, 使得 go-hypixel-api 的所有设置几乎都可以自主调节, 并暴露底层函数
   - title: 缓存策略支持
