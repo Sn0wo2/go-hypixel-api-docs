@@ -1,6 +1,6 @@
-import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from '@vuepress/theme-default'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress';
+import { defaultTheme } from '@vuepress/theme-default';
+import { viteBundler } from '@vuepress/bundler-vite';
 
 export default defineUserConfig({
   base: '/go-hypixel-api-docs/',
@@ -29,8 +29,8 @@ export default defineUserConfig({
       '/zh/': {
         selectLanguageName: '简体中文',
         navbar: [
-          {text: '首页', link: '/zh/'},
-          {text: '快速开始', link: '/zh/get-started.html'},
+          { text: '首页', link: '/zh/' },
+          { text: '快速开始', link: '/zh/get-started.html' },
           { text: 'GitHub', link: 'https://github.com/Sn0wo2/go-hypixel-api' },
         ],
       },
@@ -44,4 +44,4 @@ export default defineUserConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ],
-})
+});

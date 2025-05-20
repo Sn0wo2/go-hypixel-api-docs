@@ -7,7 +7,7 @@ Let’s quickly walk through the project setup and get started with your develop
 
 ```shell
 go get github.com/Sn0wo2/go-hypixel-api
-````
+```
 
 ## Example Code
 

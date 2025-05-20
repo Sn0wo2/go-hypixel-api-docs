@@ -5,16 +5,34 @@
   "license": "GPL-3.0",
   "type": "module",
   "scripts": {
+    "test": "npx jest --detectOpenHandles",
+    "coverage": "npx jest --coverage",
+    "lint": "npx eslint .",
+    "prettier": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
     "docs:update-package": "npx vp-update"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sn0wo2/go-hypixel-api-docs"
+  },
+  "bugs": {
+    "url": "https://github.com/Sn0wo2/go-hypixel-api-docs/issues"
+  },
+  "author": "Sn0wo2",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/theme-default": "2.0.0-rc.105",
     "sass-embedded": "^1.89.0",
     "vue": "^3.5.14",
     "vuepress": "2.0.0-rc.23"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.27.0",
+    "globals": "^16.1.0"
   }
 }
